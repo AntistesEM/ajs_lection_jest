@@ -1,5 +1,5 @@
 // const { calculateTotal } = require('../src/calculate.js');
-import { calculateTotal } from '../calculate.js';
+import calculateTotal from '../calculate';
 
 // test(description, work);
 test('basic test', () => {

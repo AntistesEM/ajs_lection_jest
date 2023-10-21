@@ -1,13 +1,13 @@
 // export function calculateTotal(purchases) {
-// 	let result = 0;
+//  let result = 0;
 
-// 	for (let i = 0; i < purchases.length; i++) {
-// 		result += purchases[i].count * purchases[i].price;
-// 	}
+//  for (let i = 0; i < purchases.length; i++) {
+//    result += purchases[i].count * purchases[i].price;
+//  }
 
-// 	return result;
+//  return result;
 // }
-export function calculateTotal(purchases, applyDiscount) {
+export default function calculateTotal(purchases, applyDiscount) {
   const sum = purchases.reduce((total, item) => total + (item.count * item.price), 0);
 
   if (applyDiscount) {
@@ -18,5 +18,5 @@ export function calculateTotal(purchases, applyDiscount) {
 }
 
 // module.exports = {
-// 	calculateTotal
+//  calculateTotal
 // }

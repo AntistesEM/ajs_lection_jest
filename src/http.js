@@ -1,4 +1,4 @@
 // файл заглушка
-export function httpGet() {
+export default function httpGet() {
   return '{}';
 }
